@@ -1,0 +1,463 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.8": {
+      "NUnit/2.6.4": {
+        "type": "package",
+        "compile": {
+          "lib/nunit.framework.dll": {}
+        },
+        "runtime": {
+          "lib/nunit.framework.dll": {}
+        }
+      },
+      "Xamarin.UITest/2.2.4": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Xamarin.UITest.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Xamarin.UITest.dll": {}
+        }
+      },
+      "TeduCommon/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/TeduCommon.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TeduCommon.dll": {}
+        }
+      },
+      "TeduShop.Data/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "TeduCommon": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TeduShop.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TeduShop.Data.dll": {}
+        }
+      },
+      "TeduShop.Model/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/TeduShop.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TeduShop.Model.dll": {}
+        }
+      },
+      "TeduShop.Service/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "TeduCommon": "1.0.0",
+          "TeduShop.Data": "1.0.0",
+          "TeduShop.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TeduShop.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TeduShop.Service.dll": {}
+        }
+      },
+      "TeduShop.Web/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "TeduCommon": "1.0.0",
+          "TeduShop.Data": "1.0.0",
+          "TeduShop.Model": "1.0.0",
+          "TeduShop.Service": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TeduShop.Web.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TeduShop.Web.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win": {
+      "NUnit/2.6.4": {
+        "type": "package",
+        "compile": {
+          "lib/nunit.framework.dll": {}
+        },
+        "runtime": {
+          "lib/nunit.framework.dll": {}
+        }
+      },
+      "Xamarin.UITest/2.2.4": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Xamarin.UITest.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Xamarin.UITest.dll": {}
+        }
+      },
+      "TeduCommon/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/TeduCommon.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TeduCommon.dll": {}
+        }
+      },
+      "TeduShop.Data/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "TeduCommon": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TeduShop.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TeduShop.Data.dll": {}
+        }
+      },
+      "TeduShop.Model/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/TeduShop.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TeduShop.Model.dll": {}
+        }
+      },
+      "TeduShop.Service/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "TeduCommon": "1.0.0",
+          "TeduShop.Data": "1.0.0",
+          "TeduShop.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TeduShop.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TeduShop.Service.dll": {}
+        }
+      },
+      "TeduShop.Web/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "TeduCommon": "1.0.0",
+          "TeduShop.Data": "1.0.0",
+          "TeduShop.Model": "1.0.0",
+          "TeduShop.Service": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TeduShop.Web.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TeduShop.Web.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win-x64": {
+      "NUnit/2.6.4": {
+        "type": "package",
+        "compile": {
+          "lib/nunit.framework.dll": {}
+        },
+        "runtime": {
+          "lib/nunit.framework.dll": {}
+        }
+      },
+      "Xamarin.UITest/2.2.4": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Xamarin.UITest.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Xamarin.UITest.dll": {}
+        }
+      },
+      "TeduCommon/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/TeduCommon.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TeduCommon.dll": {}
+        }
+      },
+      "TeduShop.Data/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "TeduCommon": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TeduShop.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TeduShop.Data.dll": {}
+        }
+      },
+      "TeduShop.Model/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/TeduShop.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TeduShop.Model.dll": {}
+        }
+      },
+      "TeduShop.Service/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "TeduCommon": "1.0.0",
+          "TeduShop.Data": "1.0.0",
+          "TeduShop.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TeduShop.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TeduShop.Service.dll": {}
+        }
+      },
+      "TeduShop.Web/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "TeduCommon": "1.0.0",
+          "TeduShop.Data": "1.0.0",
+          "TeduShop.Model": "1.0.0",
+          "TeduShop.Service": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TeduShop.Web.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TeduShop.Web.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win-x86": {
+      "NUnit/2.6.4": {
+        "type": "package",
+        "compile": {
+          "lib/nunit.framework.dll": {}
+        },
+        "runtime": {
+          "lib/nunit.framework.dll": {}
+        }
+      },
+      "Xamarin.UITest/2.2.4": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Xamarin.UITest.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Xamarin.UITest.dll": {}
+        }
+      },
+      "TeduCommon/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/TeduCommon.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TeduCommon.dll": {}
+        }
+      },
+      "TeduShop.Data/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "TeduCommon": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TeduShop.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TeduShop.Data.dll": {}
+        }
+      },
+      "TeduShop.Model/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/TeduShop.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TeduShop.Model.dll": {}
+        }
+      },
+      "TeduShop.Service/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "TeduCommon": "1.0.0",
+          "TeduShop.Data": "1.0.0",
+          "TeduShop.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TeduShop.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TeduShop.Service.dll": {}
+        }
+      },
+      "TeduShop.Web/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "TeduCommon": "1.0.0",
+          "TeduShop.Data": "1.0.0",
+          "TeduShop.Model": "1.0.0",
+          "TeduShop.Service": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TeduShop.Web.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TeduShop.Web.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NUnit/2.6.4": {
+      "sha512": "4FEMBTZNUS2BDYvFdBRiy47u8GtFEB+BEG9Uif2fmYfQcFAyDUMGxBybx2/hhnNajjVEvgtJbcQWYXzwvbmWAA==",
+      "type": "package",
+      "path": "nunit/2.6.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/nunit.framework.dll",
+        "lib/nunit.framework.xml",
+        "license.txt",
+        "nunit.2.6.4.nupkg.sha512",
+        "nunit.nuspec"
+      ]
+    },
+    "Xamarin.UITest/2.2.4": {
+      "sha512": "Nv5w9uSJ4eC1ivXG2ilI/zMDwYBOigrigMWURexUqxCSmTs0nRNUosPbYeSw4ujX0lsFJ43w4cJ/ZW4FyVoK4A==",
+      "type": "package",
+      "path": "xamarin.uitest/2.2.4",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "Xamarin.UITest-License.rtf",
+        "lib/net45/Xamarin.UITest.dll",
+        "lib/net45/Xamarin.UITest.xml",
+        "lib/portable-net45+win8+wp8/Xamarin.UITest.dll",
+        "lib/portable-net45+win8+wp8/Xamarin.UITest.xml",
+        "lib/tools/test-cloud.exe",
+        "tools/test-cloud.exe",
+        "xamarin.uitest.2.2.4.nupkg.sha512",
+        "xamarin.uitest.nuspec"
+      ]
+    },
+    "TeduCommon/1.0.0": {
+      "type": "project",
+      "path": "../TeduCommon/TeduCommon.csproj",
+      "msbuildProject": "../TeduCommon/TeduCommon.csproj"
+    },
+    "TeduShop.Data/1.0.0": {
+      "type": "project",
+      "path": "../TeduShop.Data/TeduShop.Data.csproj",
+      "msbuildProject": "../TeduShop.Data/TeduShop.Data.csproj"
+    },
+    "TeduShop.Model/1.0.0": {
+      "type": "project",
+      "path": "../TeduShop.Model/TeduShop.Model.csproj",
+      "msbuildProject": "../TeduShop.Model/TeduShop.Model.csproj"
+    },
+    "TeduShop.Service/1.0.0": {
+      "type": "project",
+      "path": "../TeduShop.Service/TeduShop.Service.csproj",
+      "msbuildProject": "../TeduShop.Service/TeduShop.Service.csproj"
+    },
+    "TeduShop.Web/1.0.0": {
+      "type": "project",
+      "path": "../TeduShop.Web/TeduShop.Web.csproj",
+      "msbuildProject": "../TeduShop.Web/TeduShop.Web.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.8": [
+      "NUnit >= 2.6.4",
+      "TeduCommon >= 1.0.0",
+      "TeduShop.Data >= 1.0.0",
+      "TeduShop.Model >= 1.0.0",
+      "TeduShop.Service >= 1.0.0",
+      "TeduShop.Web >= 1.0.0",
+      "Xamarin.UITest >= 2.2.4"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\KHAC LAM\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\Project\\C#\\TeduShop\\TeduShop.UnitTest\\TeduShop.UnitTest.csproj",
+      "projectName": "TeduShop.UnitTest",
+      "projectPath": "E:\\Project\\C#\\TeduShop\\TeduShop.UnitTest\\TeduShop.UnitTest.csproj",
+      "packagesPath": "C:\\Users\\KHAC LAM\\.nuget\\packages\\",
+      "outputPath": "E:\\Project\\C#\\TeduShop\\TeduShop.UnitTest\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\KHAC LAM\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net48"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net48": {
+          "projectReferences": {
+            "E:\\Project\\C#\\TeduShop\\TeduCommon\\TeduCommon.csproj": {
+              "projectPath": "E:\\Project\\C#\\TeduShop\\TeduCommon\\TeduCommon.csproj"
+            },
+            "E:\\Project\\C#\\TeduShop\\TeduShop.Data\\TeduShop.Data.csproj": {
+              "projectPath": "E:\\Project\\C#\\TeduShop\\TeduShop.Data\\TeduShop.Data.csproj"
+            },
+            "E:\\Project\\C#\\TeduShop\\TeduShop.Model\\TeduShop.Model.csproj": {
+              "projectPath": "E:\\Project\\C#\\TeduShop\\TeduShop.Model\\TeduShop.Model.csproj"
+            },
+            "E:\\Project\\C#\\TeduShop\\TeduShop.Service\\TeduShop.Service.csproj": {
+              "projectPath": "E:\\Project\\C#\\TeduShop\\TeduShop.Service\\TeduShop.Service.csproj"
+            },
+            "E:\\Project\\C#\\TeduShop\\TeduShop.Web\\TeduShop.Web.csproj": {
+              "projectPath": "E:\\Project\\C#\\TeduShop\\TeduShop.Web\\TeduShop.Web.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "net48": {
+        "dependencies": {
+          "NUnit": {
+            "target": "Package",
+            "version": "[2.6.4, )"
+          },
+          "Xamarin.UITest": {
+            "target": "Package",
+            "version": "[2.2.4, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

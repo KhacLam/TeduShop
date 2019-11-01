@@ -1,0 +1,9 @@
+E:\Project\C#\TeduShop\TeduShop.UnitTest\bin\Debug\TeduShop.UnitTest.dll
+E:\Project\C#\TeduShop\TeduShop.UnitTest\bin\Debug\TeduShop.UnitTest.pdb
+E:\Project\C#\TeduShop\TeduShop.UnitTest\bin\Debug\nunit.framework.dll
+E:\Project\C#\TeduShop\TeduShop.UnitTest\bin\Debug\Xamarin.UITest.dll
+E:\Project\C#\TeduShop\TeduShop.UnitTest\obj\Debug\TeduShop.UnitTest.csprojAssemblyReference.cache
+E:\Project\C#\TeduShop\TeduShop.UnitTest\obj\Debug\TeduShop.UnitTest.csproj.CoreCompileInputs.cache
+E:\Project\C#\TeduShop\TeduShop.UnitTest\obj\Debug\TeduShop.UnitTest.csproj.CopyComplete
+E:\Project\C#\TeduShop\TeduShop.UnitTest\obj\Debug\TeduShop.UnitTest.dll
+E:\Project\C#\TeduShop\TeduShop.UnitTest\obj\Debug\TeduShop.UnitTest.pdb
